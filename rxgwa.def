@@ -1,0 +1,13 @@
+LIBRARY RXGWA INITINSTANCE
+
+DESCRIPTION '@ Freeware by Gerald W. am Ende'
+PROTMODE
+DATA MULTIPLE NONSHARED LOADONCALL
+
+; Note that the exact case of the exported routine name given here
+; must match the case of the function as written in the source
+; program.
+EXPORTS
+       E2A
+       A2E
+
